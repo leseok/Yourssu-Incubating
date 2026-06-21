@@ -1,37 +1,30 @@
-# Yourssu-Incubating
-유어슈 Incubating 과제 제출을 위한 repository 입니다. 
-<img width="1002" alt="스크린샷 2024-04-24 오후 3 38 33" src="https://github.com/wjdalswl/Yourssu-Incubating/assets/109158284/8e4920ec-172b-47d4-82cd-0d770ef46566">
+## 📌 관련 이슈
+<!-- 관련있는 이슈 번호(#000)을 적어주세요.
+  해당 pull request merge와 함께 이슈를 닫으려면
+  closed #Issue_number를 적어주세요 -->
 
-## 💻 Tech Stack
-<div align="center">
-<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=Xcode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=Swift&logoColor=white"/>
-</div>
+## ✨ 과제 내용
+### 💻 코드
+
+- [x] 전체 스크롤(세로)가 부드럽게 동작하도록 해주세요.
+- [x] 각각의 섹션별로 가로 스크롤이 되도록 해주세요.
 
 
-## 🌳 branch 규칙
-```bash
-├─main
-    ├─assignment1/#1
-```
-메시지/issue의 번호
-feat : 기능 구현
-fix : 코드 수정
-add : 파일 추가
+### ✨ 기능
+- [x]  MVVM 패턴, Combine 활용
+- [x] SwiftUI로 구현
+- [x] 동적 UI 설계 : ZStack 및 Overlay를 활용하여 장르별 뱃지(영화/시리즈) 부착 및 순위 인덱스 라벨링
 
-## 🔖 Commit Conventions
-1. 커밋에 해당하는 커밋 메시지 쓰기 (예: [feat] {내용} )
+## 📸 스크린샷(선택)
+<!-- 스크린샷이 필요한 과제면 스크린샷을 첨부해주세요 -->
+<img width="547" height="1041" alt="image" src="https://github.com/user-attachments/assets/fc42b599-693d-487b-a4ae-c7a8e74257a6" />
 
-| 태그이름     | 내용                                          |
-|------------|----------------------------------------------------------|
-| `✨ Feat`     | 새로운 기능 (파일 추가도 포함)을 추가할 경우                       |
-| `🐛 Bug `     | 급한 버그를 고친 경우                                             |
-| `🛠️ Fix `     | 코드를 오류 부분 수정한 경우                                             |
-| `🔨 Refactor` | 코드 리팩토링을 수행한 경우                                |
-| `📃 Docs`     | 문서를 수정한 경우                                  |
-| `✅ Test`     | 테스트 추가, 테스트 리팩토링          |
-| `🖌️ Rename`   | 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우                |
-| `␡ Remove`   | 파일을 삭제하는 작업만 수행한 경우                         |
-| `🌏 Deploy`   | 배포 관련 작업을 수행한 경우                        |
-| `⚙️ Setting`   | 개발 환경을 세팅한 경우                         |
-| `🙋‍♂️ Question`   | 도움이 필요한 경우                    |
+
+## 📚 레퍼런스 (또는 새로 알게 된 내용)
+<!-- 참고할 사항이 있다면 적어주세요 -->
+Foreach() 
+
+## 🙋🏻 궁금한 사항
+1. 하단 탭바가 화면의 맨 아래까지 적용되지 않는 이유와 이를 해결하는 방법
+2. frame에 고정 크기를 사용하는 대신 비율 기반으로 구현하고 모델에서 기본값을 관리하는 방법
+3. Identifiable 프로토콜을 추가하는 이유와 실제 프로젝트에서 어떤 상황에서 사용하는지, 또 어떤 경우에는 사용하지 않아도 되는지
